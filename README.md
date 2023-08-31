@@ -1,10 +1,10 @@
-# Dear Note App - Reactjs
+# Dear Note App - Angularjs
 
 ## Introduction
 
 This is a Dear Note project created to generate short notes/reminders and store them. I have created this project using Angular to practice my Angular skills. The notes added will be automatically saved to Local Storage. The project is fully responsive and tested on different devices.
 
-[Link to Live Project](https://dearnote.netlify.app/)
+[Link to Live Project](https://dearnote.vercel.app/)
 
 ![dear note app](/public/dearnote.png)
 
@@ -32,6 +32,6 @@ The project was deployed to [Netlify](https://www.netlify.com/)
 
 #### Forking the repository
 
-1. Log in to GitHub and navigate to this project's repository: [dear-note](https://github.com/muneebali500/dear-note)
+1. Log in to GitHub and navigate to this project's repository: [dear-note](https://github.com/muneebali500/dear-note-angular)
 2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
