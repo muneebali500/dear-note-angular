@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  height: 8rem;
+  background-color: rgb(165, 12, 165);
+}
+
+header h2.dear-note {
+  display: inline-block;
+  color: #fff;
+  margin: 1rem 0 0 3rem;
+  font-size: 4rem;
+  font-family: "Caveat", cursive;
+}
+
+header h2 i.fas {
+  position: relative;
+  top: 0.4rem;
+}
+
+form {
+  width: 45rem;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.05),
+    -0.5rem -0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+form :is(input, textArea) {
+  font-size: 2rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 0.5px solid #a50ca5;
+  color: grey;
+}
+
+form button {
+  position: absolute;
+  right: -2rem;
+  bottom: -1.5rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: rgb(165, 12, 165);
+  cursor: pointer;
+  color: #fff;
+}
+
+.notes-container {
+  margin-top: 5rem;
+  padding: 0 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.note {
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.05),
+    -0.5rem -0.5rem 1rem rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.note :is(h2, p) {
+  width: 27rem;
+  border: 1px solid rgb(165, 12, 165);
+  padding: 0.6rem;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.note h2 {
+  border: 1px solid rgb(165, 12, 165);
+  min-height: 3.5rem;
+}
+
+.note p {
+  min-height: 14rem;
+  font-size: 1.4rem;
+  padding-bottom: 3.5rem;
+}
+
+.note button {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.5rem;
+  color: rgb(165, 12, 165);
+  cursor: pointer;
+}
+
+.note div.date {
+  position: absolute;
+  bottom: 1rem;
+  left: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}

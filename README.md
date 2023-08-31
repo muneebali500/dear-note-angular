@@ -1,27 +1,37 @@
-# DearNoteAngular
+# Dear Note App - Reactjs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
+## Introduction
 
-## Development server
+This is a Dear Note project created to generate short notes/reminders and store them. I have created this project using Angular to practice my Angular skills. The notes added will be automatically saved to Local Storage. The project is fully responsive and tested on different devices.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Link to Live Project](https://dearnote.netlify.app/)
 
-## Code scaffolding
+![dear note app](/public/dearnote.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+### Languages, Frameworks, Libraries & Programs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - build up layout and content of the application.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - for adding custom styling.
+- [Angular](https://angular.io/) - to add functionalities throughout the application.
+- [Visual Studio Code](https://code.visualstudio.com/) - the code editor being used to build the project.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used heavily for debugging during development process.
+- [Git](https://git-scm.com/) - the Git feature in VS Code was used for version control and push to github.
+- [Github](https://github.com/) - Github is used to store project's code remotely.
 
-## Running unit tests
+## Deployment
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Development
 
-## Running end-to-end tests
+The project was developed using VS Code editor and its integrated version control feature to commit gits, which are then pushed to GitHub in order to store the codes remotely.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Vercel
 
-## Further help
+The project was deployed to [Netlify](https://www.netlify.com/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Forking the repository
+
+1. Log in to GitHub and navigate to this project's repository: [dear-note](https://github.com/muneebali500/dear-note)
+2. Just above the navigation menu of the repository (above the Settings button) locate the Fork button
+3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work

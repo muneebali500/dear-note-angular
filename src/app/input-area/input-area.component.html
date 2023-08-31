@@ -1,0 +1,18 @@
+<form>
+  <input
+    (input)="handleChange($event, 'title')"
+    type="text"
+    name="title"
+    placeholder="Title"
+    [value]="note.title"
+  />
+  <textarea
+    (input)="handleChange($event, 'content')"
+    name="content"
+    cols="30"
+    rows="5"
+    placeholder="Content"
+    [value]="note.content"
+  ></textarea>
+  <button (click)="onAddClick()">Add</button>
+</form>
