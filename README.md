@@ -28,7 +28,7 @@ The project was developed using VS Code editor and its integrated version contro
 
 #### Vercel
 
-The project was deployed to [Netlify](https://www.netlify.com/)
+The project was deployed to [Vercel](https://www.vercel.com/)
 
 #### Forking the repository
 
